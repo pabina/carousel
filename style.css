@@ -1,0 +1,41 @@
+body{
+    margin: 0px;
+}
+.slide-container{
+   position:relative; 
+  
+}
+img{
+   
+    height: 30rem;
+    width: 100%;  
+}
+.arrow{
+    cursor: pointer;
+    position: absolute;
+    top: 45%;
+    color: black;
+    background-color: rgba(188, 186, 186, 0.7);
+    padding: 10px;
+    font-size: 25px;
+}
+.next{
+    right: 10px;
+}
+.prev{
+    left: 10px;
+}
+.contain{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    bottom: 0px;
+    background-color: rgba(48, 47, 47, 0.4);
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+.slide{
+    display: none;
+}
+
